@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web project</title>
+    <link rel="stylesheet" href="style.css"> <!-- linking stylesheet-->
+    <script src="https://kit.fontawesome.com/81e3ad324d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header> 
+        <img src="Images/logo.png" alt="logo">
+        <nav class="nav-container"> <!-- creating a nav container class-->
+            <ul> <!-- unordered list uses bullet point not numbers -->
+                <li ><a href="index.html" class="active" >Home</a></li>  <!--list items should be used in unordered list
+                we add anchor tag because we want to make it clickable-->
+                <li><a href="#services">About</a></li> 
+                <li><a href="index.html">Contact Us</a></li> 
+
+
+            </ul>
+        </nav>
+    </header>
+    <div id="container-background">  <!--holder div for background pics-->
+       
+        <div class="content-wrapper"><!--holder div for content, nested in the background-->
+
+            <h1>Edikan's Designs</h1>
+            <p>I create awesome designs to draw customers closer</p>
+            <a href="">Get Started</a>
+
+            
+        </div>
+
+    </div>
+
+    <!-- video section starts here-->
+    <div style=" display: flex;justify-content: center; margin-top: 40px;">
+        <video src="atoms-bond.mp4" width="60%" controls> video atommm</video>
+    </div>
+    <div id="introduction-section">
+
+        <h1 style="text-align: center;"><a id="services"></a>Services</h1>  <!--services text  //<i class="fa-solid fa-caret-down"></i> //<i class="fa-brands fa-facebook"></i>-->
+        <hr>
+
+        
+        
+        <div id="grid-layout-3">
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Coding</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-chalkboard"></i>
+                <h2>Training</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-piggy-bank"></i>
+
+                <h2>Investment</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+
+       
+
+        <div id="footer-grid-container">
+            <div>
+                <h4 style="text-transform: uppercase;">Get in touch</h4>
+               <a href="index.html"><i class="fa-brands fa-facebook" ></i></a><!-- facebook icon-->
+               <a href="index.html"><i class="fa-brands fa-whatsapp" style="margin-left: 40px;"></i></a>
+                
+            </div>
+            <div>
+                <h5>Navigate swiftly</h5>
+                <ul> <!-- unordered list uses bullet point not numbers -->
+                    <li ><a href="index.html">Home</a></li>  <!--list items should be used in unordered list
+                    we add anchor tag because we want to make it clickable-->
+                    <li style="margin-left: 30px;"><a href="index.html" target="_blank">About</a></li> 
+                    <li style="margin-left: 30px;"><a href="index.html">Contact Us</a></li> 
+    
+    
+                </ul>
+            </div>
+            <div>
+                <h5>Sign up</h5>
+                <p>Get updates via newsletter</p>
+                <input type="email" class="newsletter-field" placeholder="Enter email">
+                <button class="submit-newsletter-email">Sign Up</button>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+   
+    
+</body>
+</html>
